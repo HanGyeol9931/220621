@@ -65,3 +65,42 @@
 // M : 저장소에 파일은 있고 내용이 변경 됐을때
 
 // D : 저장소에 있는 파일이 제거 됐을때
+
+// 1. git 설정
+// 사용자 설정
+// 깃을 사용할때 깃의 사용자 셋팅
+// git config --global user.name "자기 닉네임"
+// git config --global user.emali "자기 이메일"
+
+// 설정 정보 조회
+// git config --global --list
+
+// git 저장소 초기화 저장소 생성
+// git의 저장소로 지정할 폴더로 이동해서 
+// git init
+
+// git 저장소 복제 (파일 내려받기)
+// git clone (url)
+
+// git remote add origin "git 저장소 url"
+
+// git 사용
+// 스테이징에 추가
+// git add 파일명(확장자 까지)
+
+// 커밋 메세지
+// git commit -m "작업내용"
+
+// 현재 브런치 변경
+// git switch "브런치 이름"
+
+// 로컬 깃 브런치 목록 전부 보기
+// git branch -r
+
+// 브런치 추가 
+// git branch "추가하고 싶은 브런치 이름"
+
+// 브런치 제거
+// git branch -d "제거할 브런치 이름"
+
+// README
